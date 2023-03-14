@@ -7,21 +7,26 @@
 
     <body>
         <p class = "scritte">MUDEC</p>
+        
         <div class = "immagini">
             <img src = "{{url_for('static', filename='images/mudec.jpg')}}">
         </div>
-       <div>
+       
         <div class = "immaginiDiv">
-            <img src = "{{url_for('static', filename='images/1persona.jpg')}}">
+            <a href="/persona"><p class = "scritte"><img src = "{{url_for('static', filename='images/1persona.jpg')}}"></p></a>
         </div>
         <div class = "immaginiDiv">
-            <img src = "{{url_for('static', filename='images/gruppo.jpg')}}">
+            
+            <a href="/gruppo"><p class = "scritte"><img src = "{{url_for('static', filename='images/gruppo.jpg')}}"></p></a>
+
         </div>
         <div class = "immaginiDiv">
-            <img src = "{{url_for('static', filename='images/gruppoGuida.jpg')}}">
+            
+            <a href="/gruppoGuida"><p class = "scritte"><img src = "{{url_for('static', filename='images/gruppoGuida.jpg')}}"></p></a>
+
         </div>
 
-       </div>
+    
         
         
     </body>
