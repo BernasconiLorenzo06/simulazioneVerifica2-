@@ -5,7 +5,7 @@ import datetime
 
 @app.route('/', methods=['GET'])
 def home():
-    return render_template('tour.html')
+    return render_template('tour2.html')
 
 
 if __name__ == '__main__':
