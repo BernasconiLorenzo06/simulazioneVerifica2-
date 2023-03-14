@@ -9,13 +9,17 @@ def home():
 
 @app.route('/persona', methods=['GET'])
 def persona():
-    return render_template('persona.html')
+    return render_template('persona.html', costo = 10)
     
 @app.route('/gruppo', methods=['GET'])
 def gruppo():
-    return render_template('gruppo.html')
+    return render_template('gruppo.html',costo = 8)
 
 @app.route('/guida', methods=['GET'])
+def guida():
+    return render_template('gruppoGuida.html',costo = 12)
+
+@app.route('/paginacosti', methods=['GET'])
 def guida():
     return render_template('gruppoGuida.html')
 

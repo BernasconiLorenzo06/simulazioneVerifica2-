@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>TOUR</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
+    
+    </head>
+
+    <body>
+        <p class = "scritte">MUDEC</p>
+        
+        <div class = "immagini">
+            <img src = "{{url_for('static', filename='images/mudec.jpg')}}">
+        </div>
+       
+        <div class = "immaginiDiv">
+            <a href="/paginaCosti/10"><p class = "scritte"><img src = "{{url_for('static', filename='images/1persona.jpg')}}"></p></a>
+        </div>
+        <div class = "immaginiDiv">
+            
+            <a href="/paginaCosti/8"><p class = "scritte"><img src = "{{url_for('static', filename='images/gruppo.jpg')}}"></p></a>
+
+        </div>
+        <div class = "immaginiDiv">
+            
+            <a href="/paginaCosti/12"><p class = "scritte"><img src = "{{url_for('static', filename='images/gruppoGuida.jpg')}}"></p></a>
+
+        </div>
